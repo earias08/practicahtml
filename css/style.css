@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+nav{
+    padding: 20px;
+    background: rgba(12, 12, 12, 0.89);
+}
+
+.brand{
+    color: white;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+nav a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: #fe043c;
+   
+}
+
+/* banner */
+.banner{
+    height: 400px;
+    object-fit: cover;
+}
+
+/* container */
+.container{
+    margin: 30px;
+}
+hr{
+    margin: 10px 0px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+/* title */
+.title{
+    text-align: center;
+}
+
+h1,h2,h3,h4{
+    margin: 10px 0px;
+    color: #251f56;
+}
+
+p{
+    margin: 10px 0px;
+}
+
+/* sections */
+
+.coloredSection{
+    background: #FFF5EC;
+    padding: 10px 0px ;
+}
+
+.linkRedMore{
+    color: #fe043c;
+}
+
+.column{
+    width: 50%;
+}
+
+.card h3, h4{
+    color: white;
+}
+.card{
+    width: 30%;
+    border: 1px solid #251f56;
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding: 10px;
+    background: #35cd8c;
+    color: white;
+}
+
+.card:hover{
+    background: #fe043c;
+}
+
+/* footer */
+
+.contactInfo h3{
+    color: #fe043c;
+}
+.contactInfo p{
+    color: #251f56;
+}
+
+ul{
+    list-style-position: inside;
+    color: #251f56;
+}
+
+.sectionFooter{
+    background: #fe043c;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+footer{
+    background: #FFF5EC;
+    padding-top: 10px;
+}
