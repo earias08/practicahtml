@@ -28,12 +28,6 @@ nav a:hover{
    
 }
 
-/* banner */
-.banner{
-    height: 400px;
-    object-fit: cover;
-}
-
 /* container */
 .container{
     margin: 30px;
